@@ -101,7 +101,7 @@ const Guestbook: React.FC = () => {
           </FormGroup>
           <FormGroup>
             <textarea
-              placeholder="Lời chúc"
+              placeholder="đi đi nào"
               value={newWish.message}
               onChange={(e) => setNewWish({...newWish, message: e.target.value})}
               required
@@ -109,7 +109,7 @@ const Guestbook: React.FC = () => {
             />
           </FormGroup>
           <SubmitButton type="submit" disabled={isLoading}>
-            {isLoading ? 'Đang gửi lời chúc...' : 'Gửi Lời Chúc'}
+            {isLoading ? 'Đang gửi lời chúc...' : 'Love you'}
           </SubmitButton>
         </WishForm>
       </ContentWrapper>

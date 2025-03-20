@@ -37,8 +37,8 @@ const Footer: React.FC = () => {
       <Overlay />
       <ContentWrapper>
         <ThankYou>Thank You !</ThankYou>
-        <Names>Đông Anh & Minh Quyên</Names>
-        <Date>23.02.2025</Date>
+        <Names>Chị em xanh lá</Names>
+        <Date>Save the date</Date>
       </ContentWrapper>
     </FooterSection>
   );

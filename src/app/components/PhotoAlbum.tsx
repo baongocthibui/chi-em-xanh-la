@@ -21,9 +21,9 @@ const PhotoAlbum: React.FC = () => {
     { url: '/images/wedding/wedding-4.jpg', alt: 'Wedding Photo 4' },
     { url: '/images/wedding/wedding-5.jpg', alt: 'Wedding Photo 5' },
     { url: '/images/wedding/wedding-6.jpg', alt: 'Wedding Photo 6' },
-    { url: '/images/wedding/wedding-6.jpg', alt: 'Wedding Photo 7' },
-    { url: '/images/wedding/wedding-6.jpg', alt: 'Wedding Photo 8' },
-    { url: '/images/wedding/wedding-6.jpg', alt: 'Wedding Photo 9' }
+    { url: '/images/wedding/wedding-7.jpg', alt: 'Wedding Photo 7' },
+    { url: '/images/wedding/wedding-8.jpg', alt: 'Wedding Photo 8' },
+    { url: '/images/wedding/wedding-9.jpg', alt: 'Wedding Photo 9' }
   ];
 
   const gridGalleryPhotos = [

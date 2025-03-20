@@ -48,8 +48,7 @@ const WeddingGift: React.FC = () => {
         Mừng Cưới
       </motion.h2>
       <p className="gift-intro">
-        Sự hiện diện của bạn là niềm vinh hạnh với gia đình chúng tôi.
-        Nếu bạn muốn gửi quà mừng, vui lòng tham khảo thông tin bên dưới:
+        :
       </p>
 
       <BankAccountsGrid>
