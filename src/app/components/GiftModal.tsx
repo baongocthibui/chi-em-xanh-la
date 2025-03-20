@@ -105,6 +105,7 @@ const CloseButton = styled.button`
   color: #666;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Title = styled.h2`
   font-family: ${dancing.style.fontFamily};
   font-size: 2rem;

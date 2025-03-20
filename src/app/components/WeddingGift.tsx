@@ -38,18 +38,18 @@ const WeddingGift: React.FC = () => {
   };
 
   return (
-    //<GiftSection>
-     // <motion.h2
-        //initial={{ opacity: 0, y: 20 }}
-        //whileInView={{ opacity: 1, y: 0 }}
-        //viewport={{ once: true }}
-        //transition={{ duration: 0.5 }}
+    <GiftSection>
+      <motion.h2
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
       >
-      //  Mừng Cưới
-     // </motion.h2>
-      //<p className="gift-intro">
-      //  Sự hiện diện của bạn là niềm vinh hạnh với gia đình chúng tôi.
-      //  Nếu bạn muốn gửi quà mừng, vui lòng tham khảo thông tin bên dưới:
+        Mừng Cưới
+      </motion.h2>
+      <p className="gift-intro">
+        Sự hiện diện của bạn là niềm vinh hạnh với gia đình chúng tôi.
+        Nếu bạn muốn gửi quà mừng, vui lòng tham khảo thông tin bên dưới:
       </p>
 
       <BankAccountsGrid>

@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { dancing, openSans } from '../fonts';
@@ -22,7 +21,7 @@ const Guestbook: React.FC = () => {
   const [wishes, setWishes] = useState<Wish[]>([
     {
       name: "Văn A",
-      message: "Chúc mừng hai bạn! Chúc các bạn trăm năm hạnh phúc!",
+      message: "!",
       date: "2024-03-15"
     }
   ]);
@@ -62,7 +61,7 @@ const Guestbook: React.FC = () => {
         };
         setWishes([wish, ...wishes]);
         setNewWish({ name: '', message: '' });
-        setToastMessage('Cảm ơn bạn đã gửi lời chúc! ❤️');
+        setToastMessage(' ❤️');
         setToastType('success');
         setShowToast(true);
       } else {

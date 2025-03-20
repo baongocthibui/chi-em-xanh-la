@@ -7,7 +7,7 @@ import Countdown from './components/Countdown'
 import PhotoAlbum from './components/PhotoAlbum'
 import RSVP from './components/RSVP'
 import Guestbook from './components/Guestbook'
-// import WeddingGift from './components/WeddingGift'
+import WeddingGift from './components/WeddingGift'
 import Schedule from './components/Schedule'
 import GiftModal from './components/GiftModal'
 import OurStory from './components/OurStory'
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
                 Sự Kiện
               </EventButton>
               <HeartIcons>❤️❤️❤️</HeartIcons>
-              //<EventButton onClick={() => setIsGiftModalOpen(true)}>
+              <EventButton onClick={() => setIsGiftModalOpen(true)}>
                 <GiftIcon>🎁</GiftIcon>
                 
               </EventButton>
