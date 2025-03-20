@@ -1,14 +1,16 @@
+ 
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import React, { useState, useEffect } from 'react'
 import styled, { keyframes } from 'styled-components'
 import { motion } from 'framer-motion'
 import { dancing } from './fonts'
-import Countdown from './components/Countdown'
+//import Countdown from './components/Countdown'
 import PhotoAlbum from './components/PhotoAlbum'
-import RSVP from './components/RSVP'
-import Guestbook from './components/Guestbook'
+//import RSVP from './components/RSVP'
+//import Guestbook from './components/Guestbook'
 //import WeddingGift from './components/WeddingGift'
-import Schedule from './components/Schedule'
+//import Schedule from './components/Schedule'
 import GiftModal from './components/GiftModal'
 import OurStory from './components/OurStory'
 import Message from './components/Message'
@@ -48,6 +50,7 @@ const Home: React.FC = () => {
     return () => clearInterval(interval)
   }, [backgroundImages.length])
 
+   
   const scrollToSchedule = () => {
     const element = document.getElementById('wedding-schedule');
     if (element) {
@@ -77,6 +80,7 @@ const Home: React.FC = () => {
     }
   };
 
+   
   const scrollToRSVP = () => {
     const element = document.getElementById('rsvp-section');
     if (element) {
@@ -116,31 +120,9 @@ const Home: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <HappyWedding>CHỊ EM XANH LÁ</HappyWedding>
-          <CoupleNames>Nhanh tay nhặt vé</CoupleNames>
-          <WeddingDate></WeddingDate>
-          <Countdown weddingDate="2025-04-15" />
-          <ButtonGroup>
-            <div>
-              <EventButton onClick={scrollToSchedule}>
-                <HeartIcon>❤️</HeartIcon>
-                Sự Kiện
-              </EventButton>
-              <HeartIcons>❤️❤️❤️</HeartIcons>
-              <EventButton onClick={() => setIsGiftModalOpen(true)}>
-                <GiftIcon>🎁</GiftIcon>
-                
-              </EventButton>
-            </div>
-            <div>
-              <EventButton onClick={scrollToRSVP}>
-                <HeartIcon>💌</HeartIcon>
-                Xác Nhận Tham Dự
-              </EventButton>
-            </div>
-          </ButtonGroup>
-        </motion.div>
-      </HeroSection>
+          </motion.div>
+        
+               </HeroSection>
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -151,23 +133,20 @@ const Home: React.FC = () => {
         <Invitation />
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
-      >
+      
+      
         <OurStory />
-      </motion.div>
-
+      
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
+        {/* Nội dung bên trong */}
+     </motion.div>  
         <PhotoAlbum />
-      </motion.div>
+      
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -178,33 +157,18 @@ const Home: React.FC = () => {
         <Message />
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
-      >
-        <Schedule />
-      </motion.div>
 
+         
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <RSVP />
+        
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
-      >
-        <Guestbook />
-      </motion.div>
-
+    
       {/* <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -300,6 +264,7 @@ const HeroSection = styled.section<{ $currentImage: string }>`
   }
 `
 
+ 
 const HappyWedding = styled.h2`
   font-size: 5.5rem;
   color: #ffeaa6;

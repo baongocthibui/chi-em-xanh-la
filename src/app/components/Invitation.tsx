@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const InvitationContent: React.FC = () => {
   const searchParams = useSearchParams();
-  const guestName = searchParams.get('guest') || 'Tên người mời';
+  const guestName = searchParams.get('guest') || 'Quốc tế hạnh phúc 20/3/2025';
 
   return (
     <InvitationSection>
@@ -33,7 +33,7 @@ const InvitationContent: React.FC = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          Trân Trọng Kính Mời
+          CHI EM XANH LÁ
         </Title>
         <GuestName
           as={motion.h3}
@@ -51,7 +51,7 @@ const InvitationContent: React.FC = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.9, duration: 0.5 }}
         >
-          Đến dự buổi tiệc chung vui cùng chị em xanh lá
+          Biết được bạn già đi khi nào? Khi bạn và bạn bè không còn nói về tương lai mà bắt đầu nhớ về quá khứ.
         </InvitationText>
         <InvitationText
           as={motion.p}
@@ -81,10 +81,10 @@ const InvitationSkeleton = () => {
     <InvitationSection>
       <ContentWrapper>
         <LeafIcon />
-        <Title>Trân Trọng Kính Mời</Title>
+        <Title>CHỊ EM XANH LÁ</Title>
         <GuestName>Đang tải...</GuestName>
-        <InvitationText>Đến dự buổi tiệc chung vui cùng gia đình.</InvitationText>
-        <InvitationText>Sự hiện diện của quý khách là niềm vinh dự cho gia đình chúng tôi !</InvitationText>
+        <InvitationText></InvitationText>
+        <InvitationText></InvitationText>
       </ContentWrapper>
     </InvitationSection>
   );

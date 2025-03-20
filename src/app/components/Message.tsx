@@ -11,7 +11,7 @@ const Message: React.FC = () => {
         <LeafIcon />
         <Title>Lời Ngỏ</Title>
         <MessageText>
-        Chị em phụ nữ chung tần số là những người bạn không chỉ hiểu bạn mà còn giúp bạn trở nên tốt hơn mỗi ngày. .
+        Chị em phụ nữ chung tần số là những người bạn không chỉ hiểu bạn mà còn giúp bạn trở nên tốt hơn mỗi ngày.
           <br /><br />
           Họ là những người bạn cùng bạn cười đến đau bụng, cùng bạn vượt qua mọi thử thách và cùng nhau phát triển. Tình bạn này giống như một cuộc hành trình đầy màu sắc, nơi mỗi ngày đều là một cơ hội để học hỏi và tiến bộ
           <br /><br />

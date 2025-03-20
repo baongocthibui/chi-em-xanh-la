@@ -15,28 +15,28 @@ const OurStory: React.FC = () => {
       alt: 'First Met',
       date: '',
       heading: 'Lần đầu gặp nhau',
-      text: 'Nhóm chị em có cuộc sống khác biệt tình cờ gặp nhau trong một lớp Zumba, nơi những điệu nhảy sôi động đã hòa trộn họ thành một. Từ những buổi tập đầy mồ hôi và tiếng cười, họ dần khám phá ra "tần số chung" - không chỉ trong nhịp điệu mà còn trong tâm hồn. Khi cuộc sống bên ngoài có muôn vàn thử thách, sàn nhảy Zumba trở thành nơi trú ẩn an toàn, nơi họ tiếp thêm sức mạnh cho nhau bằng những động tác đồng điệu. Mỗi bước nhảy là một câu chuyện được kể, mỗi buổi tập là một kết nối sâu sắc thêm, và dù khác biệt thế nào, họ luôn tìm thấy nhau trong cùng một nhịp đập. "Chị Em Zumba" không chỉ là một nhóm bạn nhảy, mà là một gia đình thứ hai, nơi niềm vui được nhân lên và nỗi buồn được sẻ chia qua những vũ điệu đầy năng lượng'
+      text: 'Nhóm chị em có cuộc sống khác biệt tình cờ gặp nhau trong một lớp Zumba, nơi những điệu nhảy sôi động đã hòa trộn họ thành một. Từ những buổi tập đầy mồ hôi và tiếng cười, họ dần khám phá ra "tần số chung" - không chỉ trong nhịp điệu mà còn trong tâm hồn. Khi cuộc sống bên ngoài có muôn vàn thử thách, sàn nhảy Zumba trở thành nơi trú ẩn an toàn, nơi họ tiếp thêm sức mạnh cho nhau bằng những động tác đồng điệu. Mỗi bước nhảy là một câu chuyện được kể, mỗi buổi tập là một kết nối sâu sắc thêm, và dù khác biệt thế nào, họ luôn tìm thấy nhau trong cùng một nhịp đập. "Chị Em Xanh Lá" không chỉ là một nhóm bạn nhảy, mà là một gia đình thứ hai, nơi niềm vui được nhân lên và nỗi buồn được sẻ chia qua những vũ điệu đầy năng lượng'
     },
     {
       image: '/images/our-story/lovestory-2.jpg', 
       alt: 'Từ Zumba đến cuộc sống',
       date: '',
       heading: 'Từ Zumba đến cuộc sống',
-      text: 'Những buổi tụ tập ăn uống sau giờ tập Zumba của nhóm chị em luôn tràn ngập tiếng cười với những màn "bóc phốt" nghề nghiệp không thể hài hước hơn. Bàn tiệc biến thành "sân khấu hài kịch" khi mỗi người đều có cách kể chuyện dở khóc dở cười về công việc chuyên môn của mình - từ "thảm họa meeting online" đến "thử thách giao tiếp với khách hàng khó tính". Những kinh nghiệm sống được chia sẻ theo kiểu "cười ra nước mắt", kèm theo điệu bộ, giọng điệu mô phỏng khiến cả nhóm vừa được giải trí vừa học được bài học mà không ai cảm thấy bị thuyết giáo. Không có gì tạo nên tình bạn bền chặt hơn việc cùng nhau cười nghiêng ngả trước những thử thách cuộc sống, biến những áp lực thường ngày thành những câu chuyện vui vẻ để kể lại mỗi khi hội ngộ.'
+      text: 'Những buổi tụ tập ăn uống sau giờ tập Zumba của nhóm chị em luôn tràn ngập tiếng cười với những màn "bóc phốt" nghề nghiệp không thể hài hước hơn. Bàn tiệc biến thành "sân khấu hài kịch" khi mỗi người đều có cách kể chuyện dở khóc dở cười về công việc chuyên môn của mình. Những kinh nghiệm sống được chia sẻ theo kiểu "cười ra nước mắt",  cả nhóm vừa được giải trí vừa học được bài học mà không ai cảm thấy bị thuyết giáo. Không có gì tạo nên tình bạn bền chặt hơn việc cùng nhau cười nghiêng ngả trước những thử thách cuộc sống, biến những áp lực thường ngày thành những câu chuyện vui vẻ để kể lại mỗi khi hội ngộ.'
     },
     {
       image: '/images/our-story/lovestory-3.jpg',
       alt: 'Cười cùng nhau', 
       date: '',
       heading: 'Cùng nhau tạo kỷ niệm',
-      text: 'Mỗi chị em đều là những "nghệ sĩ" tài năng trong việc tạo ra những kỷ niệm vui nhộn.Những buổi tối họp mặt, họ biến phòng khách thành sân khấu karaoke, nơi mà giọng hát "vịt đực" của một thành viên luôn là tiết mục được mong chờ nhất. Cô đôi thượng ngàn, nhóm thiên thần bóng tối,.. chắc sẽ là những tiết mục không chị em nào có thể quên. Những kỷ niệm ấy không chỉ mang lại tiếng cười mà còn là chất keo gắn kết tình bạn của họ thêm bền chặt.'
+      text: 'Mỗi chị em đều là những "nghệ sĩ" tài năng trong việc tạo ra những kỷ niệm vui nhộn.Những buổi tối họp mặt, họ biến phòng khách thành sân khấu karaoke, nơi mà giọng hát "oanh vàng" của mỗi thành viên luôn là tiết mục được mong chờ nhất. Cô đôi thượng ngàn, nhóm thiên thần bóng tối,.. chắc sẽ là những tiết mục không chị em nào có thể quên. Những kỷ niệm ấy không chỉ mang lại tiếng cười mà còn là chất keo gắn kết tình bạn của họ thêm bền chặt.'
     },
     {
       image: '/images/our-story/lovestory-4.jpg',
       alt: 'Mãi bên nhau bạn nhé',
       date: '',
       heading: 'Mãi bên nhau bạn nhé',
-      text: 'Mãi bên nhau bạn nhé, dù có phải ăn mì gói vì nồi lẩu cháy hay hát karaoke với giọng vịt đực! Chúng ta sẽ luôn là nhóm nhảy vui nhộn nhất, dù không ai nhớ nổi bước nhảy. Cùng nhau tạo thêm nhiều kỷ niệm hài hước và cười lăn lộn nhé!" 😄 '
+      text: 'Mãi bên nhau bạn nhé! Chúng ta sẽ luôn là nhóm nhảy vui nhộn nhất, dù không ai nhớ nổi bước nhảy. Cùng nhau tạo thêm nhiều kỷ niệm hài hước và cười lăn lộn nhé! Chúng mình cùng già đi rồi cùng nhau nhìn lại kỷ niệm. Chúng ta chọn hạnh phúc dù trong bất kỳ hoàn cảnh nào" 😄 '
     }
   ];
 

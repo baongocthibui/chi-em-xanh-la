@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
@@ -121,7 +122,7 @@ const AdminPage = () => {
             $active={activeTab === 'rsvp'} 
             onClick={() => setActiveTab('rsvp')}
           >
-            Xác Nhận Tham Dự
+            
           </Tab>
         </TabContainer>
       </Header>
@@ -156,41 +157,7 @@ const AdminPage = () => {
         </Section>
       )}
 
-      {activeTab === 'rsvp' && (
-        <Section>
-          <h2>Danh Sách Xác Nhận Tham Dự ({rsvpEntries.length})</h2>
-          <Table>
-            <thead>
-              <tr>
-                <Th>Tên</Th>
-                <Th>Email</Th>
-                <Th>Tham Dự</Th>
-                <Th>Số Khách</Th>
-                <Th>Lời Nhắn</Th>
-                <Th>Thời Gian</Th>
-                <Th>Hành Động</Th>
-              </tr>
-            </thead>
-            <tbody>
-              {Array.isArray(rsvpEntries) && rsvpEntries.map((entry, index) => (
-                <tr key={`rsvp-${entry._id}-${index}`}>
-                  <Td>{entry.data.name}</Td>
-                  <Td>{entry.data.email}</Td>
-                  <Td>{entry.data.attending === 'yes' ? 'Có' : 'Không'}</Td>
-                  <Td>{entry.data.numberOfGuests}</Td>
-                  <Td>{entry.data.message}</Td>
-                  <Td>{new Date(entry.timestamp).toLocaleString('vi-VN')}</Td>
-                  <Td>
-                    <DeleteButton onClick={() => handleDeleteRSVP(entry._id)}>
-                      Xóa
-                    </DeleteButton>
-                  </Td>
-                </tr>
-              ))}
-            </tbody>
-          </Table>
-        </Section>
-      )}
+      
     </AdminContainer>
   )
 }
